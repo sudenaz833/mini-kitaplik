@@ -1,0 +1,22 @@
+# Bağımlılıklar (Dependencies)
+/node_modules
+
+# Build çıktıları (Build output)
+/dist
+/build
+
+# Log dosyaları
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Ortam değişkenleri (Environment variables)
+# Bu dosyalar gizli bilgileri (API anahtarları vb.) içerebilir, ASLA paylaşma!
+.env
+.env.local
+.env.*.local
+
+# Editör ve İşletim Sistemi dosyaları
+.DS_Store
+Thumbs.db
